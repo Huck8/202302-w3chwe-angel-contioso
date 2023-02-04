@@ -1,0 +1,8 @@
+body {
+  background: #6eb4fa;
+}
+.container-logo {
+  text-align: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid white;
+}

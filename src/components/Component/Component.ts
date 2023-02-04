@@ -4,9 +4,9 @@ class Component implements ComponentStructure {
   domElement: HTMLElement;
 
   constructor(
-    private readonly parentElement: HTMLElement,
-    tag: string,
-    className = ""
+    private readonly parentElement: HTMLElement, // Le dan el scoped al parentElement
+    className: string,
+    tag = "article"
   ) {
     this.domElement = document.createElement(tag);
     this.domElement.className = className;

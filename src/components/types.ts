@@ -4,4 +4,4 @@ interface ComponentStructure {
   addListeners?: () => void;
 }
 
-export default ComponentStructure;
+export default ComponentStructure; // Con default no hay que poner las llaves cuando importas.
